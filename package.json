@@ -1,0 +1,27 @@
+{
+  "name": "appsalud",
+  "version": "1.0.0",
+  "description": "Ejemplo automatizacion de  pruebas software",
+  "main": "main.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "javascript",
+    "mocha",
+    "chai",
+    "pruebas",
+    "appSalud"
+  ],
+  "author": "knna",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.3",
+    "o": "^2.3.2"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {}
+}
