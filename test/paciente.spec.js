@@ -7,11 +7,16 @@ const Paciente = require ('../paciente');
 
 describe('Main Suite -- Pruebas unitarias Clase Paciente', function(){
     describe ('Constructor Paciente --Test case 21', function(){
-
         const objetoPrueba = new Paciente("Pepe","Garcia");
         //const fecha=new Date(1995,11,17);
        it ('saludar("Pepe","Garcia",fecha).isString', function(){
             expect(objetoPrueba.saludar("Pepe","Garcia","1995,11,17"));
+        })
+    })
+    describe ('Constructor Paciente --Test case 22', function(){
+        const objetoPrueba = new Paciente("Pepe","Garcia");
+       it ('obtenerFechaNacimiento()assert.instanceOf(Date);', function(){
+            expect(objetoPrueba.obtenerFechaNacimiento());
         })
     })
 })

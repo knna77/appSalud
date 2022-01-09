@@ -56,6 +56,7 @@ class Paciente extends Bascula{
    obtenerBascula(){
        bascula=new Bascula();
        bascula=this.bascula;
+       return bascula;
    
    }
    calcularIMC2(){
@@ -65,7 +66,7 @@ class Paciente extends Bascula{
        imc= this.calcularIMC();
        console.log("decimal "+imc)
        frase=this.describirIMC(imc);
-     console.log(frase+"---"); 
+        return frase;
 
     }
 }
